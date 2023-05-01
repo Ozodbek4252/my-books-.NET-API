@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cT6BsWQ3UDpqViHct6STZdHz7asEICaFF3wToWUXda3ZaQ10Xe5sWuRra+hCN1DF6/sccgdFlImzMN1nbct+7w==",
+  "dgSpecHash": "5zXcjg+zTRw/QeadvMnBGi3XYM1J5SynjaXM4ucyYrxDyMkXBdnONYTq175drMiUlQ1UQSWBmaOHos9OA2s6IA==",
   "success": true,
-  "projectFilePath": "D:\\Ozodbek\\Projects\\API\\my-books\\my-books\\my-books.csproj",
+  "projectFilePath": "D:\\Ozodbek\\Projects\\API\\my-books-1\\my-books-.NET-API\\my-books\\my-books.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

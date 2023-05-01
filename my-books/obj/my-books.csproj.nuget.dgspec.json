@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ozodbek\\Projects\\API\\my-books\\my-books\\my-books.csproj": {}
+    "D:\\Ozodbek\\Projects\\API\\my-books-1\\my-books-.NET-API\\my-books\\my-books.csproj": {}
   },
   "projects": {
-    "D:\\Ozodbek\\Projects\\API\\my-books\\my-books\\my-books.csproj": {
+    "D:\\Ozodbek\\Projects\\API\\my-books-1\\my-books-.NET-API\\my-books\\my-books.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ozodbek\\Projects\\API\\my-books\\my-books\\my-books.csproj",
+        "projectUniqueName": "D:\\Ozodbek\\Projects\\API\\my-books-1\\my-books-.NET-API\\my-books\\my-books.csproj",
         "projectName": "my-books",
-        "projectPath": "D:\\Ozodbek\\Projects\\API\\my-books\\my-books\\my-books.csproj",
+        "projectPath": "D:\\Ozodbek\\Projects\\API\\my-books-1\\my-books-.NET-API\\my-books\\my-books.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Ozodbek\\Projects\\API\\my-books\\my-books\\obj\\",
+        "outputPath": "D:\\Ozodbek\\Projects\\API\\my-books-1\\my-books-.NET-API\\my-books\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
