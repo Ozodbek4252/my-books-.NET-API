@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionString");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 builder.Services.AddTransient<BooksService>();
+builder.Services.AddTransient<AuthorsService>();
+builder.Services.AddTransient<PublishersService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -31,7 +33,7 @@ using (var scope = app.Services.CreateScope())
     {
         var context = serviceProvider.GetRequiredService<AppDbContext>();
         context.Database.EnsureCreated();
-        AppDbInitializer.Seed(app);
+        // AppDbInitializer.Seed(app);
 
     }
     catch (Exception ex)
