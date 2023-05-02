@@ -10,7 +10,7 @@
         public string Genre { get; set; }
         public string CoverUrl { get; set; }
 
-        public int? PublisherId { get; internal set; }
+        public int PublisherId { get; set; }
         public List<int> AuthorIds { get; set; }
     }
     public class BookWithAuthorsVM
@@ -23,7 +23,7 @@
         public string Genre { get; set; }
         public string CoverUrl { get; set; }
 
-        public string PublisherName { get; internal set; }
+        public string PublisherName { get; set; }
         public List<string> AuthorNames { get; set; }
     }
 }
